@@ -1,0 +1,17 @@
+﻿<Window x:Class="idkprojekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:idkprojekt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Name="label1" Content="" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="277" Width="800" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="btn1" Click="btn1_Click" Content="3" HorizontalAlignment="Left" Margin="523,314,0,0" VerticalAlignment="Top" Height="64" Width="89"/>
+        <Button x:Name="btn2" Click="btn2_Click" Content="9" HorizontalAlignment="Left" Margin="334,314,0,0" VerticalAlignment="Top" Height="64" Width="91"/>
+        <Button x:Name="btn3" Click="btn3_Click" Content="11" HorizontalAlignment="Left" Margin="167,314,0,0" VerticalAlignment="Top" Height="64" Width="85"/>
+
+
+    </Grid>
+</Window>
