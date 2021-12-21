@@ -13,32 +13,21 @@ using System.Windows.Shapes;
 namespace idkprojekt
 {
     /// <summary>
-    /// Interakční logika pro Window1.xaml
+    /// Interakční logika pro Window2.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window2 : Window
     {
-        public Window1()
+        public Window2()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            InitializeComponent();
-            Window2 w2 = new Window2();
-            w2.Show();
-            this.Close();
-
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            
+            InitializeComponent();
+            Window3 w3 = new Window3();
+            w3.Show();
+            this.Close();
         }
     }
 }

@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="3+2" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="190" Width="800" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="100"/>
+        <Button x:Name="button1" Click="button1_Click" Content="8" HorizontalAlignment="Left" Margin="186,300,0,0" VerticalAlignment="Top" Height="92" Width="98"/>
+        <Button x:Name="button2" Click="button2_Click" Content="2*3-1" HorizontalAlignment="Left" Margin="499,300,0,0" VerticalAlignment="Top" Height="92" Width="98"/>
+        <Button x:Name="button3" Click="button3_Click" Content="9" HorizontalAlignment="Left" Margin="343,300,0,0" VerticalAlignment="Top" Height="92" Width="98"/>
+        <ProgressBar HorizontalAlignment="Center" Height="27" Margin="0,397,0,0" VerticalAlignment="Top" Width="800" Value="30"/>
+
     </Grid>
 </Window>
